@@ -1,0 +1,13 @@
+Index: frameworkintegration-4.95.0/autotests/kdeplatformtheme_unittest.cpp
+===================================================================
+--- frameworkintegration-4.95.0.orig/autotests/kdeplatformtheme_unittest.cpp	2014-02-04 13:32:12.914766912 +0000
++++ frameworkintegration-4.95.0/autotests/kdeplatformtheme_unittest.cpp	2014-02-04 13:56:13.086753177 +0000
+@@ -129,7 +129,7 @@
+ 
+         QStringList iconThemeSearchPaths = m_qpa->themeHint(QPlatformTheme::IconThemeSearchPaths).toStringList();
+         foreach (const QString &iconPath, iconThemeSearchPaths) {
+-            QVERIFY(iconPath.endsWith(QLatin1String("/icons")));
++            QVERIFY(iconPath.endsWith(QLatin1String("icons")));
+             QVERIFY(QFile::exists(iconPath));
+         }
+         // there must be *some* icons in XDG_DATA_DIRS, right?

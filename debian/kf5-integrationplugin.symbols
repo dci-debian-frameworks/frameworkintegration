@@ -1,0 +1,4 @@
+# SymbolsHelper-Confirmed: 4.95.0 amd64
+FrameworkIntegrationPlugin.so kf5-integrationplugin #MINVER#
+ qt_plugin_instance@Base 4.95.0
+ qt_plugin_query_metadata@Base 4.95.0

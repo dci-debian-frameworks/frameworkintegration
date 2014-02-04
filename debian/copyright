@@ -1,0 +1,73 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: frameworkintegration
+Source: https://projects.kde.org/projects/frameworks/frameworkintegration
+
+Files: *
+Copyright: © 2013 Aleix Pol Gonzalez <aleixpol@blue-systems.com>
+           © 2013 Alejandro Fiestas Olivares <afiestas@kde.org>
+           © 2013 Kevin Ottens <ervin+bluesystems@kde.org>
+           © 2003, 2005-2006 Sandro Giessl <giessl@kde.org> <sandro@giessl.com>
+           © 2002-2005 Maksim Orlovich <maksim@kde.org>
+           © 2001-2002 Karol Szwed <gallium@kde.org>
+           © 2000, 2006, 2012 David Faure <faure+bluesystems@kde.org> <faure@kde.org>
+           © 1998-2000 TrollTech AS
+           © 1998-2000 Keramik for KDE3,
+           © 2001-2002 Fredrik Höglund <fredrik@kde.org>
+           © 2000 Dirk Mueller <mueller@kde.org>
+           © 2000 Daniel M. Duley <mosfet@kde.org>
+           © 2001 Martijn Klingens <klingens@kde.org>
+           © 2008 Friedrich W. H. Kossebau <kossebau@kde.org>
+           © 2002 Malte Starostik <malte@kde.org>
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ On Debian systems, the complete text of the
+ GNU Library General Public License version 2 can be found in
+ /usr/share/common-licenses/LGPL-2
+
+Files: src/platformtheme/kfontsettingsdata.cpp
+       src/platformtheme/kfontsettingsdata.h
+Copyright: 2000, 2006 David Faure <faure@kde.org>
+           2008 Friedrich W. H. Kossebau <kossebau@kde.org>
+           2013 Aleix Pol Gonzalez <aleixpol@blue-systems.com>
+License: LGPL-2  
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ On Debian systems, the complete text of the
+ GNU Library General Public License version 2 can be found in
+ /usr/share/common-licenses/LGPL-2
+
+Files: debian/*       
+Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 	  
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ 

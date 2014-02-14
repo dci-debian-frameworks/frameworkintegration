@@ -1,11 +1,11 @@
-frameworkintegration (4.96.0-0ubuntu1~ubuntu14.04~ppa1) trusty; urgency=medium
+frameworkintegration (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Rohan Garg ]
   * New upstream alpha release
-    - Drop all patches 
+    - Drop all patches
 
   [ Scarlett Clark ]
-  * Add missing depend to debian/control 
+  * Add missing depend to debian/control
   * Fix changed lib names in deb/*.install
   * Fixed soname error renamed package to 4
   * Added X support for test

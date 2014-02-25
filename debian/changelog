@@ -5,10 +5,10 @@ frameworkintegration (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
     - Drop all patches
 
   [ Scarlett Clark ]
-  * Add missing depend to debian/control
-  * Fix changed lib names in deb/*.install
-  * Fixed soname error renamed package to 4
-  * Added X support for test
+   - Add missing depend to debian/control
+   - Fix changed lib names in deb/*.install
+   - Fixed soname error renamed package to 4
+   - Added X support for test
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 11 Feb 2014 18:25:02 +0100
 

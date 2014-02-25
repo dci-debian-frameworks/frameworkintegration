@@ -1,10 +1,10 @@
-# SymbolsHelper-Confirmed: 4.95.0 amd64
+# SymbolsHelper-Confirmed: 4.96.0 amd64
 KDEPlatformTheme.so kf5-platformtheme #MINVER#
- _ZN11KIconEngineD0Ev@Base 4.95.0
- _ZN11KIconEngineD1Ev@Base 4.95.0
- _ZN11KIconEngineD2Ev@Base 4.95.0
- _ZTI11KIconEngine@Base 4.95.0
- _ZTS11KIconEngine@Base 4.95.0
- _ZTV11KIconEngine@Base 4.95.0
- qt_plugin_instance@Base 4.95.0
- qt_plugin_query_metadata@Base 4.95.0
+ _ZN11KIconEngineD0Ev@Base 4.96.0
+ _ZN11KIconEngineD1Ev@Base 4.96.0
+ _ZN11KIconEngineD2Ev@Base 4.96.0
+ _ZTI11KIconEngine@Base 4.96.0
+ _ZTS11KIconEngine@Base 4.96.0
+ _ZTV11KIconEngine@Base 4.96.0
+ qt_plugin_instance@Base 4.96.0
+ qt_plugin_query_metadata@Base 4.96.0

@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5Style.so.4 libkf5style4 #MINVER#
+libKF5Style.so.5 libkf5style5 #MINVER#
  _ZN6KStyle11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN6KStyle11qt_metacastEPKc@Base 4.96.0
  _ZN6KStyle12newStyleHintERK7QString@Base 4.96.0

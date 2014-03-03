@@ -22,7 +22,7 @@ Homepage: https://projects.kde.org/projects/frameworks/frameworkintegration
 Package: libkf5style-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5style4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5style5 (= ${binary:Version}), ${misc:Depends}
 Description: KF5 cross-framework integration plugins - KStyle
  Framework Integration is a set of plugins responsible
  for better integration of Qt applications when running
@@ -39,7 +39,7 @@ Description: KF5 cross-framework integration plugins - KStyle
  .
  This package provides the development files.
  
-Package: libkf5style4
+Package: libkf5style5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -99,7 +99,7 @@ Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5style4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5style5 (= ${binary:Version}), ${misc:Depends}
 Description: KF5 cross-framework integration plugins - debug files
  Framework Integration is a set of plugins responsible
  for better integration of Qt applications when running

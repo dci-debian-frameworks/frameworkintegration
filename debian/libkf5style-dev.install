@@ -1,3 +1,3 @@
 usr/include/KF5/
 usr/lib/*/libKF5Style.so
-usr/lib/*/cmake/KF5Style/
+usr/lib/*/cmake/KF5FrameworkIntegration/

@@ -19,7 +19,7 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  4.98.0), libkf5jobwidgets-dev (>= 4.98.0), libkf5solid-dev (>=
  4.98.0), xauth, xvfb, dbus-x11, oxygen-icon-theme, libqt5widgets5,
  libqt5x11extras5-dev, openbox, libkf5attica-dev (>= 4.98.0),
- pkg-config
+ pkg-config, ttf-oxygen-font-family
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/frameworkintegration
 

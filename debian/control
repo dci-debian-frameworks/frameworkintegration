@@ -3,30 +3,65 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev, libkf5i18n-dev (>=
- 4.99.0), libkf5guiaddons-dev (>= 4.99.0), libkf5widgetsaddons-dev (>=
- 4.99.0), libkf5configwidgets-dev (>= 4.99.0), libkf5itemviews-dev (>=
- 4.99.0), libkf5config-dev (>= 4.99.0), libkf5iconthemes-dev (>=
- 4.99.0), libkf5notifications-dev (>= 4.99.0), libkf5i18n-dev (>=
- 4.99.0), kf5-kio-dev (>= 4.99.0), qtbase5-private-dev, libkf5kjs-dev
- (>= 4.99.0), libkf5auth-dev (>= 4.99.0), libkf5coreaddons-dev (>=
- 4.99.0), libkf5codecs-dev (>= 4.99.0), libkf5windowsystem-dev (>=
- 4.99.0), libkf5bookmarks-dev (>= 4.99.0), libkf5xmlgui-dev (>=
- 4.99.0), libkf5globalaccel-dev (>= 4.99.0), libkf5textwidgets-dev (>=
- 4.99.0), libkf5completion-dev (>= 4.99.0), libkf5service-dev (>=
- 4.99.0), libkf5dbusaddons-dev (>= 4.99.0), libkf5sonnet-dev (>=
- 4.99.0), libkf5jobwidgets-dev (>= 4.99.0), libkf5solid-dev (>=
- 4.99.0), xauth, xvfb, dbus-x11, oxygen-icon-theme, libqt5widgets5,
- libqt5x11extras5-dev, openbox, libkf5attica-dev (>= 4.99.0),
- pkg-config, ttf-oxygen-font-family
+Build-Depends: cmake,
+               dbus-x11,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.13),
+               kf5-kio-dev (>= 4.99.0),
+               libkf5attica-dev (>= 4.99.0),
+               libkf5auth-dev (>= 4.99.0),
+               libkf5bookmarks-dev (>= 4.99.0),
+               libkf5codecs-dev (>= 4.99.0),
+               libkf5completion-dev (>= 4.99.0),
+               libkf5config-dev (>= 4.99.0),
+               libkf5configwidgets-dev (>= 4.99.0),
+               libkf5coreaddons-dev (>=
+ 4.99.0),
+               libkf5dbusaddons-dev (>= 4.99.0),
+               libkf5globalaccel-dev (>= 4.99.0),
+               libkf5guiaddons-dev (>= 4.99.0),
+               libkf5i18n-dev (>=
+ 4.99.0),
+               libkf5iconthemes-dev (>=
+ 4.99.0),
+               libkf5itemviews-dev (>=
+ 4.99.0),
+               libkf5jobwidgets-dev (>= 4.99.0),
+               libkf5kjs-dev
+ (>= 4.99.0),
+               libkf5notifications-dev (>= 4.99.0),
+               libkf5service-dev (>=
+ 4.99.0),
+               libkf5solid-dev (>=
+ 4.99.0),
+               libkf5sonnet-dev (>=
+ 4.99.0),
+               libkf5textwidgets-dev (>=
+ 4.99.0),
+               libkf5widgetsaddons-dev (>=
+ 4.99.0),
+               libkf5windowsystem-dev (>=
+ 4.99.0),
+               libkf5xmlgui-dev (>=
+ 4.99.0),
+               libqt5widgets5,
+               libqt5x11extras5-dev,
+               openbox,
+               oxygen-icon-theme,
+               pkg-config,
+               pkg-kde-tools,
+               qtbase5-dev,
+               qtbase5-private-dev,
+               ttf-oxygen-font-family,
+               xauth,
+               xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/frameworkintegration
 
-Package: libkf5style-dev
+Package: libkf5style5
 Section: libdevel
 Architecture: any
-Depends: libkf5style5 (= ${binary:Version}), ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KF5 cross-framework integration plugins - KStyle
  Framework Integration is a set of plugins responsible
  for better integration of Qt applications when running
@@ -40,32 +75,13 @@ Description: KF5 cross-framework integration plugins - KStyle
  consistent user experience. For example, this will ensure a
  consistent single-click or double-click activation setting,
  and the use of standard themed icons.
- .
- This package provides the development files.
- 
-Package: libkf5style5
-Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: KF5 cross-framework integration plugins - KStyle
- Framework Integration is a set of plugins responsible
- for better integration of Qt applications when running
- on a KDE Plasma workspace.
- .
- libkf5style5 provides integration with KDE Plasma Workspace settings
- for Qt styles.
- .
- Derive your Qt style from KStyle to automatically inherit
- various settings from the KDE Plasma Workspace, providing a
- consistent user experience. For example, this will ensure a
- consistent single-click or double-click activation setting,
- and the use of standard themed icons.
 
 Package: kf5-infopage
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KF5 cross-framework integration plugins - infopage files
  Framework Integration is a set of plugins responsible
  for better integration of Qt applications when running
@@ -77,7 +93,7 @@ Description: KF5 cross-framework integration plugins - infopage files
 Package: kf5-integrationplugin
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KF5 cross-framework integration plugins - integrationplugin
  Framework Integration is a set of plugins responsible
  for better integration of Qt applications when running
@@ -89,7 +105,7 @@ Description: KF5 cross-framework integration plugins - integrationplugin
 Package: kf5-platformtheme
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KF5 cross-framework integration plugins - infopage files
  Framework Integration is a set of plugins responsible
  for better integration of Qt applications when running

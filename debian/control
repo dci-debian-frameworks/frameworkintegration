@@ -46,6 +46,28 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/frameworkintegration
 
+Package: libkf5style-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5style5 (= ${binary:Version}), ${misc:Depends},
+ libkf5configwidgets-dev,
+ libkf5iconthemes-dev
+Description: KF5 cross-framework integration plugins - KStyle
+ Framework Integration is a set of plugins responsible
+ for better integration of Qt applications when running
+ on a KDE Plasma workspace.
+ .
+ libkf5style5 provides integration with KDE Plasma Workspace settings
+ for Qt styles.
+ .
+ Derive your Qt style from KStyle to automatically inherit
+ various settings from the KDE Plasma Workspace, providing a
+ consistent user experience. For example, this will ensure a
+ consistent single-click or double-click activation setting,
+ and the use of standard themed icons.
+ .
+ This package provides the development files.
+
 Package: libkf5style5
 Section: libdevel
 Architecture: any

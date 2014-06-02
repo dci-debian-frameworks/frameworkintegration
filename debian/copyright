@@ -38,7 +38,7 @@ Files: src/platformtheme/kfontsettingsdata.cpp
 Copyright: 2000, 2006 David Faure <faure@kde.org>
            2008 Friedrich W. H. Kossebau <kossebau@kde.org>
            2013 Aleix Pol Gonzalez <aleixpol@blue-systems.com>
-License: LGPL-2  
+License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
  License version 2 as published by the Free Software Foundation.
@@ -52,8 +52,8 @@ License: LGPL-2
  GNU Library General Public License version 2 can be found in
  /usr/share/common-licenses/LGPL-2
 
-Files: debian/*       
-Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 	  
+Files: debian/*
+Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -70,4 +70,3 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
- 

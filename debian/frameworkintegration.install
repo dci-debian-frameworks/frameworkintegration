@@ -1,0 +1,4 @@
+usr/lib/*/qt5/plugins/kf5
+usr/lib/*/qt5/plugins/platformthemes
+usr/share/kf5/infopage/
+usr/share/locale/

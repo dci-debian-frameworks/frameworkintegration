@@ -5,7 +5,17 @@ frameworkintegration (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Bump depends versions
-  * Bump depends versions
+
+  [ Harald Sitter ]
+  * Compound packaging:
+    kf5-infopage, kf5-integrationplugin and kf5-platformtheme are now one
+    package called frameworkintegration. The pervious packages contained
+    runtime assets in data and plugin form, neither warranting a separate
+    package and the separation had zero advantage.
+    - Remove symbol tracking for plugins, pointless because they are plugins.
+  * Add localization to new frameworkintegration package
+  * Update libkf5style5.symbols
+  * Remove incorrect and pointless libdevel section from libkf5style5
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:32:53 +0100
 

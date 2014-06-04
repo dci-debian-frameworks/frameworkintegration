@@ -46,6 +46,18 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/frameworkintegration
 
+Package: frameworkintegration
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+# Previously split packages. Removed for 4.100.
+Breaks: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
+Replaces: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
+Description: KF5 cross-framework integration plugins
+ Framework Integration is a set of plugins responsible
+ for better integration of Qt applications when running
+ on a KDE Plasma workspace.
+
 Package: libkf5style-dev
 Section: libdevel
 Architecture: any
@@ -70,7 +82,6 @@ Description: KF5 cross-framework integration plugins - KStyle
  This package provides the development files.
 
 Package: libkf5style5
-Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KF5 cross-framework integration plugins - KStyle
@@ -88,42 +99,6 @@ Description: KF5 cross-framework integration plugins - KStyle
  and the use of standard themed icons.
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-
-Package: kf5-infopage
-Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: KF5 cross-framework integration plugins - infopage files
- Framework Integration is a set of plugins responsible
- for better integration of Qt applications when running
- on a KDE Plasma workspace.
- .
- kf5-infopage has datafiles used by the about screens used in various
- KDE Applications.
-
-Package: kf5-integrationplugin
-Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: KF5 cross-framework integration plugins - integrationplugin
- Framework Integration is a set of plugins responsible
- for better integration of Qt applications when running
- on a KDE Plasma workspace.
- .
- kf5-integrationplugin provides an addon to KMessageBox to store settings
- for asking users the same question again.
-
-Package: kf5-platformtheme
-Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: KF5 cross-framework integration plugins - infopage files
- Framework Integration is a set of plugins responsible
- for better integration of Qt applications when running
- on a KDE Plasma workspace.
- .
- kf5-platformtheme provides a plugin KDEPlatformTheme which provides
- KDE integration for QPlatformThemePlugin.
 
 Package: frameworkintegration-dbg
 Priority: extra

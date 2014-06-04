@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.100.0 amd64
 libKF5Style.so.5 libkf5style5 #MINVER#
  _ZN6KStyle11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN6KStyle11qt_metacastEPKc@Base 4.96.0
@@ -15,6 +15,7 @@ libKF5Style.so.5 libkf5style5 #MINVER#
  _ZN6KStyleD0Ev@Base 4.96.0
  _ZN6KStyleD1Ev@Base 4.96.0
  _ZN6KStyleD2Ev@Base 4.96.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  _ZNK6KStyle10metaObjectEv@Base 4.96.0
  _ZNK6KStyle11pixelMetricEN6QStyle11PixelMetricEPK12QStyleOptionPK7QWidget@Base 4.96.0
  _ZNK6KStyle12standardIconEN6QStyle14StandardPixmapEPK12QStyleOptionPK7QWidget@Base 4.96.0

@@ -16,6 +16,8 @@ frameworkintegration (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Add localization to new frameworkintegration package
   * Update libkf5style5.symbols
   * Remove incorrect and pointless libdevel section from libkf5style5
+  * Remove useless Pre-Depends fields used for multiarch compat in
+    releases older than trusty
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:32:53 +0100
 

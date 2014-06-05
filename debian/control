@@ -48,7 +48,6 @@ Homepage: https://projects.kde.org/projects/frameworks/frameworkintegration
 
 Package: frameworkintegration
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 # Previously split packages. Removed for 4.100.
 Breaks: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
@@ -98,7 +97,6 @@ Description: KF5 cross-framework integration plugins - KStyle
  consistent single-click or double-click activation setting,
  and the use of standard themed icons.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: frameworkintegration-dbg
 Priority: extra

@@ -1,2 +1,2 @@
 version=3
-http://download.kde.org/unstable/frameworks/([\d\.]*)/frameworkintegration-(.*)\.tar\.xz
+http://download.kde.org/stable/frameworks/([\d\.]*)/frameworkintegration-(.*)\.tar\.xz

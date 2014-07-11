@@ -7,6 +7,7 @@ frameworkintegration (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update watch file to stable
   * Update build depends to stable
   * Add VCS
+  * Update copyright to match upstream 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Jul 2014 23:58:10 +0200
 

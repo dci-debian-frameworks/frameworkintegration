@@ -34,16 +34,14 @@ Build-Depends: cmake,
                libkf5xmlgui-dev (>= 5.0.0),
                libqt5widgets5,
                libqt5x11extras5-dev,
-               openbox,
                oxygen-icon-theme,
                pkg-config,
                pkg-kde-tools,
                qtbase5-dev,
                qtbase5-private-dev,
-               ttf-oxygen-font-family,
-               xauth,
-               xvfb
+               ttf-oxygen-font-family
 Standards-Version: 3.9.5
+XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/frameworkintegration
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/frameworkintegration
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/frameworkintegration
@@ -51,7 +49,6 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/fr
 Package: frameworkintegration
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-# Previously split packages. Removed for 4.100.
 Breaks: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Replaces: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Description: KF5 cross-framework integration plugins
@@ -84,6 +81,7 @@ Description: KF5 cross-framework integration plugins - KStyle
 
 Package: libkf5style5
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KF5 cross-framework integration plugins - KStyle
  Framework Integration is a set of plugins responsible
@@ -98,7 +96,6 @@ Description: KF5 cross-framework integration plugins - KStyle
  consistent user experience. For example, this will ensure a
  consistent single-click or double-click activation setting,
  and the use of standard themed icons.
-Multi-Arch: same
 
 Package: frameworkintegration-dbg
 Priority: extra

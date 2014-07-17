@@ -20,11 +20,12 @@ Copyright: © 2013 Aleix Pol Gonzalez <aleixpol@blue-systems.com>
            © 2008 Friedrich W. H. Kossebau <kossebau@kde.org>
            © 2002 Malte Starostik <malte@kde.org>
            2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
-License: LGPL-2+
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later version.
+License: LGPL-2+ as approved by KDE e.V.
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 2 of the License or ( at
+ your option ) version 3 or, at the discretion of KDE e.V. ( which shall
+ act as a proxy as in section 14 of the GPLv3 ), any later version.
  .
  This library is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -35,8 +36,12 @@ License: LGPL-2+
  GNU Library General Public License version 2 can be found in
  /usr/share/common-licenses/LGPL-2
 
-Files: src/platformtheme/kfontsettingsdata.cpp
-       src/platformtheme/kfontsettingsdata.h
+Files: src/platformtheme/kdirselectdialog_p.h
+ src/platformtheme/kdirselectdialog.cpp
+ src/platformtheme/kfontsettingsdata.cpp
+ src/platformtheme/kfontsettingsdata.h
+ src/kstyle/kstyle.cpp
+ tests/kstyletest.cpp
 Copyright: 2000, 2006 David Faure <faure@kde.org>
            2008 Friedrich W. H. Kossebau <kossebau@kde.org>
            2013 Aleix Pol Gonzalez <aleixpol@blue-systems.com>

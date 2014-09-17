@@ -1,7 +1,11 @@
 frameworkintegration (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream release
   * Use pkg-kde-tools version 3 scripts
+
+  [ Scarlett Clark ]
+  * Fix copyright file to resolve space-in-std-shortname-in-dep5-copyright lintian error. 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:17:44 +0000
 

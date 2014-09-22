@@ -6,9 +6,10 @@ frameworkintegration (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * Fix copyright file to resolve space-in-std-shortname-in-dep5-copyright
-    lintian error. 
+    lintian error.
+  * Add missing file to install.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:56:40 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:17:44 +0000
 
 frameworkintegration (5.1.0-0ubuntu1) utopic; urgency=medium
 

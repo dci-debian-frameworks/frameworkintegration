@@ -43,8 +43,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/frameworkintegration
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/frameworkintegration
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/frameworkintegration
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/frameworkintegration.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/frameworkintegration.git
 
 Package: frameworkintegration
 Architecture: any

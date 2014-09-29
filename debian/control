@@ -1,8 +1,8 @@
 Source: frameworkintegration
 Section: libs
 Priority: optional
-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Maximiliano Curia <maxy@debian.org>
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: cmake,
                dbus-x11,
                debhelper (>= 9.0.0),
@@ -43,8 +43,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/frameworkintegration
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/frameworkintegration.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/frameworkintegration.git
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/frameworkintegration
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/frameworkintegration
 
 Package: frameworkintegration
 Architecture: any

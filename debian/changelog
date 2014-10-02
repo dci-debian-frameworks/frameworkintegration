@@ -1,3 +1,9 @@
+frameworkintegration (5.2.0-1) UNRELEASED; urgency=medium
+
+  * Don't build-dep on ttf-oxygen-font-family since it's a runtime dep
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 02 Oct 2014 14:02:37 +0200
+
 frameworkintegration (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]

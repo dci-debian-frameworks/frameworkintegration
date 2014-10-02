@@ -38,8 +38,7 @@ Build-Depends: cmake,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev,
-               qtbase5-private-dev,
-               ttf-oxygen-font-family
+               qtbase5-private-dev
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/frameworkintegration
@@ -48,7 +47,7 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/fr
 
 Package: frameworkintegration
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ttf-oxygen-font-family, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Replaces: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Description: KF5 cross-framework integration plugins

@@ -1,4 +1,4 @@
-frameworkintegration (5.3.0-0ubuntu1) UNRELEASED; urgency=medium
+frameworkintegration (5.3.0-0ubuntu1) utopic; urgency=medium
 
   [ Rohan Garg ]
   * Don't build-dep on ttf-oxygen-font-family since it's a runtime dep
@@ -6,7 +6,7 @@ frameworkintegration (5.3.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 06 Oct 2014 11:25:07 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Oct 2014 11:15:26 +0100
 
 frameworkintegration (5.2.0-0ubuntu1) utopic; urgency=medium
 

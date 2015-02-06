@@ -29,7 +29,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/frameworkintegration.git
 
 Package: frameworkintegration
 Architecture: any
-Depends: ttf-oxygen-font-family, ${misc:Depends}, ${shlibs:Depends}
+Depends: fonts-oxygen, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Replaces: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Description: KF5 cross-framework integration plugins

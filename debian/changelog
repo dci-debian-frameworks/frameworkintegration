@@ -1,4 +1,4 @@
-frameworkintegration (5.6.0-1~) UNRELEASED; urgency=medium
+frameworkintegration (5.6.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
   * Bump Standards-Version to 3.9.6, no changes needed.
@@ -7,7 +7,7 @@ frameworkintegration (5.6.0-1~) UNRELEASED; urgency=medium
   * Add acc autopkgtests.
   * Update watch file.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Feb 2015 11:50:00 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Feb 2015 16:15:33 +0100
 
 frameworkintegration (5.6.0-0ubuntu1) vivid; urgency=medium
 

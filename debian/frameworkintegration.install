@@ -1,5 +1,5 @@
-usr/lib/*/qt5/plugins/kf5
-usr/lib/*/qt5/plugins/platformthemes
+usr/lib/*/qt5/plugins/kf5/FrameworkIntegrationPlugin.so
+usr/lib/*/qt5/plugins/platformthemes/KDEPlatformTheme.so
 usr/share/kf5/infopage/
 usr/share/knotifications5/plasma_workspace.notifyrc
-usr/share/locale/
+usr/share/locale/*/*/frameworkintegration5.mo

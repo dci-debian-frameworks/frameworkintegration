@@ -6,14 +6,14 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                dbus-x11,
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.9.0~),
-               kio-dev (>= 5.9.0~),
-               libkf5config-dev (>= 5.9.0~),
-               libkf5configwidgets-dev (>= 5.9.0~),
-               libkf5i18n-dev (>= 5.9.0~),
-               libkf5iconthemes-dev (>= 5.9.0~),
-               libkf5notifications-dev (>= 5.9.0~),
-               libkf5widgetsaddons-dev (>= 5.9.0~),
+               extra-cmake-modules (>= 5.10.0~),
+               kio-dev (>= 5.10.0~),
+               libkf5config-dev (>= 5.10.0~),
+               libkf5configwidgets-dev (>= 5.10.0~),
+               libkf5i18n-dev (>= 5.10.0~),
+               libkf5iconthemes-dev (>= 5.10.0~),
+               libkf5notifications-dev (>= 5.10.0~),
+               libkf5widgetsaddons-dev (>= 5.10.0~),
                libqt5widgets5,
                libqt5x11extras5-dev (>= 5.2.0~),
                libxcursor-dev,
@@ -29,7 +29,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/frameworkintegration.git
 
 Package: frameworkintegration
 Architecture: any
-Depends: fonts-oxygen, ${misc:Depends}, ${shlibs:Depends}
+Depends: fonts-oxygen (>= 0.4~), ${misc:Depends}, ${shlibs:Depends}
 Breaks: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Replaces: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Description: KF5 cross-framework integration plugins
@@ -40,8 +40,8 @@ Description: KF5 cross-framework integration plugins
 Package: libkf5style-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5configwidgets-dev (>= 5.9.0~),
-         libkf5iconthemes-dev (>= 5.9.0~),
+Depends: libkf5configwidgets-dev (>= 5.10.0~),
+         libkf5iconthemes-dev (>= 5.10.0~),
          libkf5style5 (= ${binary:Version}),
          ${misc:Depends}
 Description: KF5 cross-framework integration plugins - KStyle

@@ -15,11 +15,11 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5notifications-dev (>= 5.10.0~),
                libkf5widgetsaddons-dev (>= 5.10.0~),
                libqt5widgets5,
-               libqt5x11extras5-dev (>= 5.2.0~),
+               libqt5x11extras5-dev (>= 5.4),
                libxcursor-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.2.0),
+               qtbase5-dev (>= 5.4),
                qtbase5-private-dev
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest

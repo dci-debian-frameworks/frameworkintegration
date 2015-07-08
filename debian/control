@@ -42,8 +42,8 @@ Description: KF5 cross-framework integration plugins
 Package: libkf5style-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5configwidgets-dev (>= 5.11.0~),
-         libkf5iconthemes-dev (>= 5.11.0~),
+Depends: libkf5configwidgets-dev (>= 5.11.0),
+         libkf5iconthemes-dev (>= 5.11.0),
          libkf5style5 (= ${binary:Version}),
          ${misc:Depends}
 Description: KF5 cross-framework integration plugins - KStyle

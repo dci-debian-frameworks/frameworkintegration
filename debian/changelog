@@ -1,6 +1,7 @@
 frameworkintegration (5.11.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Vivid backport
+  * Merge and wrap-and-sort. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 08 Jul 2015 08:02:16 -0700
 

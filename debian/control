@@ -29,7 +29,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/frameworkintegration.git
 
 Package: frameworkintegration
 Architecture: any
-Depends: ttf-oxygen-font-family | fonts-oxygen (>= 0.4~), ${misc:Depends}, ${shlibs:Depends}
+Depends: ttf-oxygen-font-family | fonts-oxygen (>= 0.4~),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Replaces: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Description: KF5 cross-framework integration plugins
@@ -40,13 +42,8 @@ Description: KF5 cross-framework integration plugins
 Package: libkf5style-dev
 Section: libdevel
 Architecture: any
-<<<<<<< HEAD
-Depends: libkf5configwidgets-dev (>= 5.11.0),
-         libkf5iconthemes-dev (>= 5.11.0),
-=======
 Depends: libkf5configwidgets-dev (>= 5.11.0~),
          libkf5iconthemes-dev (>= 5.11.0~),
->>>>>>> origin/kubuntu_unstable
          libkf5style5 (= ${binary:Version}),
          ${misc:Depends}
 Description: KF5 cross-framework integration plugins - KStyle

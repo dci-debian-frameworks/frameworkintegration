@@ -2,6 +2,7 @@ frameworkintegration (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Fix merge, remove broken backport.
+  * Vivid backport. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 07:53:54 -0700
 

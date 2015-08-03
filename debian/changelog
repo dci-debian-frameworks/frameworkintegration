@@ -1,4 +1,4 @@
-frameworkintegration (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
+frameworkintegration (5.12.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
   * Fix merge, remove broken backport.
@@ -6,7 +6,7 @@ frameworkintegration (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
   * Apply 0001-Fix-changelog-format-to-avoid-a-lintian-warning.patch
     provided by santa. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 07:53:54 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:23:00 +0200
 
 frameworkintegration (5.11.0-1) unstable; urgency=medium
 

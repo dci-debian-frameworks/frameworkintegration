@@ -8,6 +8,9 @@ frameworkintegration (5.12.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
   * Fix merge, remove broken backport.
+  * Vivid backport. 
+  * Apply 0001-Fix-changelog-format-to-avoid-a-lintian-warning.patch
+    provided by santa. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:23:00 +0200
 

@@ -28,7 +28,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/frameworkintegration.git
 
 Package: frameworkintegration
 Architecture: any
-Depends: fonts-noto-hinted, ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Replaces: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Description: KF5 cross-framework integration plugins

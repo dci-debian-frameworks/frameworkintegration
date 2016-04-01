@@ -1,6 +1,6 @@
-frameworkintegration (5.20.0-1~1.gbped0b49) UNRELEASED; urgency=medium
+frameworkintegration (5.20.0-1~2.gbp4c93d5) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ed0b49b8141020a94fc37331f5a0a3f9c343e057 **
+  ** SNAPSHOT build @4c93d50a24ceafd1a048c7f0f6e9de1868613695 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -12,8 +12,9 @@ frameworkintegration (5.20.0-1~1.gbped0b49) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:57:40 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 16:57:30 +0200
 
 frameworkintegration (5.19.0-1) experimental; urgency=medium
 

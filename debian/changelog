@@ -1,6 +1,6 @@
-frameworkintegration (5.21.0-1~1.gbp9cb03a) UNRELEASED; urgency=medium
+frameworkintegration (5.22.0-1~1.gbpf91af7) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9cb03a6585db56c055ae0bc44b1c0067cbdb1884 **
+  ** SNAPSHOT build @f91af7c6297a3de97dcec240494b0cb2ebed6250 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -9,6 +9,8 @@ frameworkintegration (5.21.0-1~1.gbp9cb03a) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
   [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
@@ -21,7 +23,7 @@ frameworkintegration (5.21.0-1~1.gbp9cb03a) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:57:20 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 14:57:12 +0200
 
 frameworkintegration (5.19.0-1) experimental; urgency=medium
 

@@ -29,10 +29,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/frameworkintegration.
 Package: frameworkintegration
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kf5-infopage,
-        kf5-integrationplugin,
-        kf5-platformtheme,
-        plasma-workspace (<< 4:5.6.0~)
+Breaks: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Replaces: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Description: KF5 cross-framework integration plugins
  Framework Integration is a set of plugins responsible

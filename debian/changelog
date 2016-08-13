@@ -1,10 +1,11 @@
-frameworkintegration (5.24.0-1~1.gbp9ad9bd) UNRELEASED; urgency=medium
+frameworkintegration (5.25.0-1~1.gbpcffcf4) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9ad9bdc90522180e2f3f21b4fcfa7b43b02c0fe0 **
+  ** SNAPSHOT build @cffcf45e66e29cd7f47589e60faa2d1a17715a47 **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 14:57:29 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 20:57:12 +0200
 
 frameworkintegration (5.23.0-1) unstable; urgency=medium
 

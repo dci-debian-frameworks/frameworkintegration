@@ -1,11 +1,17 @@
-frameworkintegration (5.25.0-1~1.gbpcffcf4) UNRELEASED; urgency=medium
+frameworkintegration (5.25.0-1~2.gbp3f5bb4) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @3f5bb4afbd811463ee3242db62f37d4baccc58a5 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @cffcf45e66e29cd7f47589e60faa2d1a17715a47 **
 
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 20:57:12 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 21:57:16 +0200
 
 frameworkintegration (5.23.0-1) unstable; urgency=medium
 

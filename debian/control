@@ -6,22 +6,22 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                dbus-x11,
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
-               kio-dev (>= 5.19.0~),
-               libkf5config-dev (>= 5.19.0~),
-               libkf5configwidgets-dev (>= 5.19.0~),
-               libkf5i18n-dev (>= 5.19.0~),
-               libkf5iconthemes-dev (>= 5.19.0~),
-               libkf5notifications-dev (>= 5.19.0~),
-               libkf5widgetsaddons-dev (>= 5.19.0~),
+               extra-cmake-modules (>= 5.25.0~),
+               kio-dev (>= 5.22.0~),
+               libkf5config-dev (>= 5.25.0~),
+               libkf5configwidgets-dev (>= 5.25.0~),
+               libkf5i18n-dev (>= 5.22.0~),
+               libkf5iconthemes-dev (>= 5.25.0~),
+               libkf5notifications-dev (>= 5.25.0~),
+               libkf5widgetsaddons-dev (>= 5.25.0~),
                libqt5widgets5,
-               libqt5x11extras5-dev (>= 5.4),
+               libqt5x11extras5-dev (>= 5.5.0~),
                libxcursor-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4),
+               qtbase5-dev (>= 5.5.0~),
                qtbase5-private-dev
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/frameworkintegration
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/frameworkintegration.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/frameworkintegration.git
@@ -42,8 +42,8 @@ Description: KF5 cross-framework integration plugins
 Package: libkf5style-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5configwidgets-dev (>= 5.19.0~),
-         libkf5iconthemes-dev (>= 5.19.0~),
+Depends: libkf5configwidgets-dev (>= 5.25.0~),
+         libkf5iconthemes-dev (>= 5.25.0~),
          libkf5style5 (= ${binary:Version}),
          ${misc:Depends}
 Description: KF5 cross-framework integration plugins - KStyle
@@ -61,6 +61,7 @@ Description: KF5 cross-framework integration plugins - KStyle
  and the use of standard themed icons.
  .
  This package provides the development files.
+Breaks: libkf5kdelibs4support-dev (<< 5.25)
 
 Package: libkf5style5
 Architecture: any

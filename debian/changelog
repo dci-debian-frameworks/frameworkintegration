@@ -1,3 +1,11 @@
+frameworkintegration (5.28.0-1~1.gbpe33951) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e339512cfb70984190d80ec3a4312abf7de4b510 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 14:57:23 +0100
+
 frameworkintegration (5.27.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]

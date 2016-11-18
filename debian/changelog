@@ -1,10 +1,13 @@
-frameworkintegration (5.28.0-1~1.gbpe33951) UNRELEASED; urgency=medium
+frameworkintegration (5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @e339512cfb70984190d80ec3a4312abf7de4b510 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 14:57:23 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:07:38 +0100
 
 frameworkintegration (5.27.0-1) unstable; urgency=medium
 

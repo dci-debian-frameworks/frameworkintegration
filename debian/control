@@ -24,7 +24,7 @@ Build-Depends: cmake (>= 3.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
-               qtbase5-private-dev
+               qtbase5-private-dev,
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/frameworks/frameworkintegration
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/frameworkintegration.git
@@ -46,7 +46,7 @@ Architecture: any
 Depends: libkf5configwidgets-dev (>= 5.37.0~),
          libkf5iconthemes-dev (>= 5.37.0~),
          libkf5style5 (= ${binary:Version}),
-         ${misc:Depends}
+         ${misc:Depends},
 Description: KF5 cross-framework integration plugins - KStyle
  Framework Integration is a set of plugins responsible
  for better integration of Qt applications when running

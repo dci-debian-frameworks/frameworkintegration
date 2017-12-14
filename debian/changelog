@@ -261,17 +261,6 @@ frameworkintegration (5.18.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:33:16 +0100
 
-frameworkintegration (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Scarlett Clark ]
-  * Debian merge. No remaining changes. 
-  * New upstream release Xenial
-
-  [ Philip Muškovac ]
-  * New upstream release
-
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 14:54:38 +0100
-
 frameworkintegration (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
@@ -284,19 +273,6 @@ frameworkintegration (5.15.0-1) unstable; urgency=medium
   * New upstream release (5.15.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:15:47 +0200
-
-frameworkintegration (5.15.0-0ubuntu2) UNRELEASED; urgency=medium
-
-  * Vivid backport. 
-  * Refresh install file.
-  * Frameworkintegration requires kconf_update to build,
-    which resides in libkf5config-bin. Adding to build deps. 
-  * Revert last change, added runtime dep to kconfig instead
-    due to the number of packages it affected. 
-  * 
-  * Fix merge madness. 
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 08 Oct 2015 20:22:00 -0700
 
 frameworkintegration (5.15.0-0ubuntu2) xenial; urgency=medium
 
@@ -348,9 +324,9 @@ frameworkintegration (5.12.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
   * Fix merge, remove broken backport.
-  * Vivid backport. 
+  * Vivid backport.
   * Apply 0001-Fix-changelog-format-to-avoid-a-lintian-warning.patch
-    provided by santa. 
+    provided by santa.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:23:00 +0200
 
@@ -449,7 +425,7 @@ frameworkintegration (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * Fix copyright file to resolve space-in-std-shortname-in-dep5-copyright
-    lintian error. 
+    lintian error.
   * Add missing file to install.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:17:44 +0000

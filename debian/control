@@ -7,12 +7,12 @@ Build-Depends: cmake (>= 3.0~),
                dbus-x11,
                debhelper (>= 9),
                extra-cmake-modules (>= 5.38.0~),
-               libkf5kio-dev (>= 5.22.0~),
                libappstreamqt-dev,
                libkf5config-dev (>= 5.38.0~),
                libkf5configwidgets-dev (>= 5.38.0~),
                libkf5i18n-dev (>= 5.38.0~),
                libkf5iconthemes-dev (>= 5.38.0~),
+               libkf5kio-dev (>= 5.22.0~),
                libkf5newstuff-dev (>= 5.38.0~),
                libkf5notifications-dev (>= 5.38.0~),
                libkf5package-dev (>= 5.38.0~),
@@ -36,7 +36,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kf5-infopage,
         kf5-integrationplugin,
         kf5-platformtheme,
-        plasma-workspace (<< 4:5.6.0~)
+        plasma-workspace (<< 4:5.6.0~),
 Replaces: kf5-infopage, kf5-integrationplugin, kf5-platformtheme
 Description: KF5 cross-framework integration plugins
  Framework Integration is a set of plugins responsible

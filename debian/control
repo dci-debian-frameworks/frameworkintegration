@@ -65,7 +65,7 @@ Description: KF5 cross-framework integration plugins - KStyle
  and the use of standard themed icons.
  .
  This package provides the development files.
-Breaks: libkf5kdelibs4support-dev (<< 5.41)
+Breaks: libkf5kdelibs4support-dev (<< 5.42)
 
 Package: libkf5style5
 Architecture: any
